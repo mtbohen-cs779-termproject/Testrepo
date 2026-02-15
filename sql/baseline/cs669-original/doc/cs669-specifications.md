@@ -1,3 +1,14 @@
+Project: Synthetic Security Log Platform
+Course: MET CS 779 – Advanced Database Management
+Author: Michael Bohen
+Version: 1.0
+Last Updated: 2026-02-15
+Description: This file was created in the CS669 course and originally was structured as a Microsoft Word Document. This document contains the specifications developed for this database in CS669.
+
+I converted this document into the markup below using the utility Pandoc. This utility is available here:
+https://pandoc.org/
+
+
 Your Name: Michael Bohen
 
 This template contains placeholders for all sections you need to
