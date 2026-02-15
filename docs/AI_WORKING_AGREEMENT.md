@@ -3,6 +3,8 @@ Project: CS 779 Term Project
 Owner: Michael Bohen
 Last Updated: 2026-02-15
 
+This document was created via AI
+
 ## Purpose
 This document defines how AI assistance (GitHub Copilot and optionally ChatGPT) is used in this project. It enforces stable scope, prevents requirement drift, and produces two deliverables:
 1) Raw AI session transcript (per session)
