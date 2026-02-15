@@ -26,11 +26,17 @@ Objective E: Optionally exporting DHCP reservation data to the relational databa
 - Azure SQL database.
   These are two artificates associated with this. These artifact are immutable and should not be changed directly:
   Artifact 1:
+  
     Description: The SQL script to create this database
+  
     Location: sql/baseline/cs669-original/code/BohenMichael_CS669_TermProjectIteration6Template.sql
+  
   Artifact 2:
+  
     Description: The specifications of this database is located here:
+  
     Location: /sql/baseline/cs669-original/doc/cs669-specifications.md
+  
 - Synthetic generation scripts simulating 3 data sources (Palo Alto firewall, CrowdStrike EDR, and Microsoft DHCP)
 - Importing these log files into CosmosDB
 - Generating sample queries
