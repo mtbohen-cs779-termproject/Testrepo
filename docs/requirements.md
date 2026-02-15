@@ -5,7 +5,8 @@ Author: Michael Bohen
 Version: 1.0
 Last Updated: 2026-02-15
 
-AI Usage: This structure was provided by AI. I reviewed the suggested requirements and modified them / rewrote them in my own words. Material directly created via AI is denoted with "//AI generated" 
+AI Usage: I used AI to generate the structure of this document. I reviewed the suggested requirements and modified them / rewrote them in my own words. 
+I noted the marterial I created directly via AI with the text "//AI generated" 
 
 ---
 
@@ -118,5 +119,81 @@ We will develop three queries within Cosmos DB
   - Query 3: Determine which device was assigned a specific IP address at a specific time
   - Query 4 (option) - Demonstrate joining data between multiple data sources
 
-## FR-1 Azure SQL Topology Schema
-The 
+## FR-8 Azure SQL Topology Schema (Optional)
+The script must perform the following tasks:
+- Retrieve DHCP reservation events from Cosmos DB. // AI generated requirement
+- Upsert into Azure SQL `DHCP_Reservation` table. // AI generated requirement
+- Enforce deduplication logic. // AI generated requirement
+
+
+# 5. Non-Functional Requirements (NFR)
+
+## NFR-1 Auditability
+All AI interactions must be logged and preserved in: // AI generated requirement
+- docs/raw-transcripts/ // AI generated requirement
+- docs/consolidated-summary.md // AI generated requirement
+
+---
+
+## NFR-2 Requirement Authority
+Requirements may only change via explicit version update of this document. // AI generated requirement
+
+---
+
+## NFR-3 Code Clarity
+- All Python code must include docstrings. // AI generated requirement
+- SQL must include comments explaining constraints. // AI generated requirement
+- All Code must have the following additional qualities
+  - Be easy to read and understand for people new to Python
+  - Minimize the use of third party modules
+  - Avoid using aliases
+  - Avoid excessive complexity
+---
+
+## NFR-4 Demonstration Readiness
+The project must be executable and demoable within 10 minutes:
+- Data generation // AI generated requirement
+- Data load // AI generated requirement
+- Query execution // AI generated requirement
+
+---
+
+## NFR-5 Validation
+All generated data must:
+- Conform to expected JSON schema. // AI generated requirement
+- Successfully load into Cosmos DB. // AI generated requirement
+- Pass sample validation queries. // AI generated requirement
+
+---
+
+
+# 6. Data Architecture Requirements
+
+## DR-1 Hybrid Architecture
+- Relational data: Azure SQL // AI generated requirement
+- Semi-structured logs: Cosmos DB // AI generated requirement
+- Data flow must be represented in diagram. // AI generated requirement
+
+---
+
+## DR-2 Partitioning Strategy
+Cosmos DB containers must define partition keys. // AI generated requirement
+Justification required in Decision Log (DL-###). // AI generated requirement
+
+---
+
+# 7. Assumptions
+
+- Azure resources are pre-provisioned. // AI generated requirement
+- Time constraint is 20 hours. // AI generated requirement
+- Log correlation may be minimal or independent per log type. // AI generated requirement
+ 
+---
+
+# 8. Risks
+
+- Synthetic log correlation complexity. // AI generated requirement
+- Cosmos DB partition key mis-selection. // AI generated requirement
+- Scope expansion beyond time constraint. // AI generated requirement
+
+---
