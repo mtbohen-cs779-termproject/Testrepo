@@ -11,10 +11,15 @@ AI Usage: This structure was provided by AI. I reviewed the suggested requiremen
 
 # 1. Project Objective
 Create a proof of concept demonstrating the following items.
+
 Objective A: Ingesting data from a previously built IPAM database within Azure SQL
+
 Objective B: Creating synthetic json formatted logs of 3 representitive logs
+
 Objective C: Importing these logs into Cosmos DB log sources
+
 Objective D: Demonstrating queries for these logs modeling real world operations
+
 Objective E: Optionally exporting DHCP reservation data to the relational database
 
 # 2. In Scope
