@@ -6,6 +6,7 @@ Version: 1.0
 Last Updated: 2026-02-15
 
 AI Usage: This structure was provided by AI. I reviewed the suggested requirements and modified them / rewrote them in my own words. Material directly created via AI is denoted with "//AI generated" 
+
 ---
 
 # 1. Project Objective
