@@ -25,9 +25,9 @@ Objective E: Optionally exporting DHCP reservation data to the relational databa
 # 2. In Scope
 - Azure SQL database.
   These are two artificates associated with this. These artifact are immutable and should not be changed directly:
-  Artifact 1:
+  *Artifact 1:
   
-    Description: The SQL script to create this database
+    *Description: The SQL script to create this database
   
     Location: sql/baseline/cs669-original/code/BohenMichael_CS669_TermProjectIteration6Template.sql
   
